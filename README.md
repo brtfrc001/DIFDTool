@@ -7,13 +7,13 @@ The project is NIST-aligned for local academic and team-hosted deployment. It do
 #### Quick demo:
 
 1. Login
-<video src="https://github.com" width="100%" controls>https://github.com/user-attachments/assets/9a3c12c7-f4ee-41ce-8482-bff564e83e59</video>
+https://github.com/user-attachments/assets/9a3c12c7-f4ee-41ce-8482-bff564e83e59
 
 2. Accounts Management (only admin role)
-<video src="https://github.com" width="100%" controls>https://github.com/user-attachments/assets/9b0e41b5-c2c0-4e3b-b351-1a602f20911c</video>
+https://github.com/user-attachments/assets/9b0e41b5-c2c0-4e3b-b351-1a602f20911c
 
 3. Analyze
-<video src="https://github.com" width="100%" controls>https://github.com/user-attachments/assets/9989d57c-167d-4c5d-a26f-19677c22bbc8</video>
+https://github.com/user-attachments/assets/9989d57c-167d-4c5d-a26f-19677c22bbc8
 
 ---
 
