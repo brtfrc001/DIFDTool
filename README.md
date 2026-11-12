@@ -1,10 +1,27 @@
 # DIFD Tool — Digital Image Forgery Detection Tool
 
-DIFD is a Streamlit web application for copy-move forgery detection and pixel-level localization. It drives a self-hosted, fine-tuned BusterNet inference sidecar and wraps it with an authenticated multi-user frontend, local audit logging, and session management.
+DIFD is a Streamlit web application for copy-move forgery detection and pixel-level localization. It drives a self-hosted, [fine-tuned AI model (BusterNet)](https://github.com/brtfrc001/DIFDTool/tree/main/busternet_sidecar) inference sidecar and wraps it with an authenticated multi-user frontend, local audit logging, and session management.
 
 The project is NIST-aligned for local academic and team-hosted deployment. It does not claim formal NIST RMF authorization or production certification. Security controls, assumptions, and accepted risks are documented in [`SECURITY_POLICY.md`](./SECURITY_POLICY.md). Evidence from local security self-checks and dependency audits is recorded in [`SECURITY_TEST_REPORT.md`](./SECURITY_TEST_REPORT.md).
 
-#### Quick demo:
+For more about model training experiment results see [busternet_sidecar/finetuned_model](https://github.com/brtfrc001/DIFDTool/tree/main/busternet_sidecar/finetuned_model)
+---
+
+## Table of Contents
+
+1. [Quick Demo](#quick-demo)
+2. [Requirements](#requirements)
+3. [Main App Setup](#main-app-setup)
+4. [BusterNet Sidecar Setup](#busternet-sidecar-setup)
+5. [Sidecar Token](#sidecar-token)
+6. [HTTPS](#https)
+7. [Account Management](#account-management)
+8. [Auth Database Recovery](#auth-database-recovery)
+9. [Security Summary](#security-summary)
+
+---
+
+## Quick Demo:
 
 1. Login
 
@@ -22,19 +39,6 @@ https://github.com/user-attachments/assets/9b0e41b5-c2c0-4e3b-b351-1a602f20911c
 
 
 https://github.com/user-attachments/assets/9989d57c-167d-4c5d-a26f-19677c22bbc8
-
----
-
-## Table of Contents
-
-1. [Requirements](#requirements)
-2. [Main App Setup](#main-app-setup)
-3. [BusterNet Sidecar Setup](#busternet-sidecar-setup)
-4. [Sidecar Token](#sidecar-token)
-5. [HTTPS](#https)
-6. [Account Management](#account-management)
-7. [Auth Database Recovery](#auth-database-recovery)
-8. [Security Summary](#security-summary)
 
 ---
 
