@@ -2,7 +2,7 @@
 
 DIFD is a Streamlit web application for copy-move forgery detection and pixel-level localization. It drives a self-hosted, [fine-tuned AI model (BusterNet)](https://github.com/brtfrc001/DIFDTool/tree/main/busternet_sidecar) inference sidecar and wraps it with an authenticated multi-user frontend, local audit logging, and session management.
 
-The project is NIST-aligned for local academic and team-hosted deployment. It does not claim formal NIST RMF authorization or production certification. Security controls, assumptions, and accepted risks are documented in [`SECURITY_POLICY.md`](./SECURITY_POLICY.md). Evidence from local security self-checks and dependency audits is recorded in [`SECURITY_TEST_REPORT.md`](./SECURITY_TEST_REPORT.md).
+The project is NIST-aligned for local academic and team-hosted deployment. It does not claim formal NIST RMF authorization or production certification. Security controls, assumptions, and accepted risks are documented in [`SECURITY_POLICY.md`](./SECURITY_POLICY.md). Evidence from local security self-checks and dependency audits is recorded in [`SECURITY_TEST_REPORT.md`](./SECURITY_TEST_REPORT.md)
 
 For more about model training experiment results see [busternet_sidecar/finetuned_model](https://github.com/brtfrc001/DIFDTool/tree/main/busternet_sidecar/finetuned_model)
 
